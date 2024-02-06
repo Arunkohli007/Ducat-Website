@@ -1,0 +1,119 @@
+
+.btn{
+    background-color: rgb(255, 153, 0);
+    height: 35px;
+}
+
+.header h1{
+    text-align: center;
+    color: blue;
+}
+
+h2{
+    color: rgb(53, 44, 44);
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.mid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+    max-width: 100%;
+    height: 74vh;
+    background-image: url('./images/center.png');
+}
+
+.mid h1{
+    font-size: 50px;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    height: 100px;
+    
+}
+
+.picu{
+    position: absolute;
+    color: rgb(44, 43, 43);
+    top: 30vh;
+    left: 50vw;
+    font-weight: bolder;
+}
+
+.explore{
+    margin:20px;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(182, 241, 222);
+    box-shadow: 0px 0px 8px #456961 ;
+    background-color: rgb(182, 241, 222);
+    justify-content:space-around;
+    margin: 20px 0px 10px 110px;
+    height: 80px;
+    width: 250px;
+    cursor: pointer;
+}
+
+.our-leaner{
+    text-align: center;
+}
+
+.container{
+    height: 400px;
+}
+
+.carousel{
+    padding: 70px;
+}
+
+.upcoming {
+    margin: 20px;
+}
+
+.footer {
+    padding: 40px;
+    text-align: center;
+    color: white;
+    background-color: rgb(10, 38, 167);
+    
+}
+
+.inp{
+    border: none;
+    border-bottom: 2px solid rgb(10, 38, 167);
+    margin-left: 10px;
+    outline: none;
+}
+
+.inp:focus{
+    border: none;
+    border-bottom: 2px solid rgb(10, 38, 167);
+
+}
+
+.col {
+    cursor: pointer;
+}
+
+.collapse {
+    margin-left: 200px;
+}
+
+.container-fluid img {
+
+    margin-left: 100px;
+}
+
+.nav-item{
+    margin-left: 30px;
+}
